@@ -1,0 +1,489 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Variables create */
+:root {
+    --blue: #070d1b;
+    --blue2: #0a101e;
+    --yellow: #fec544;
+}
+
+/* Navbar */
+#nav {
+    z-index: 1;
+}
+#collapsibleNavbar ul li a:hover,
+#collapsibleNavbar ul li a.active{
+    color: var(--yellow);
+    border-bottom: 1px solid var(--yellow);
+    /* border-top: 1px solid var(--yellow);
+    box-shadow: 0px 0px 5px 0px; */
+}
+/* First row property start */
+#row1 {
+    background-color: var(--blue);
+    overflow: hidden;
+}
+
+#image {
+    box-sizing: border-box;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#hello {
+    top: 200px;
+    left: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #hello {
+        top: 100px;
+        left: 70px;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+
+    #hello {
+        top: 100px;
+        left: 60px;
+    }
+
+}
+
+#helloI {
+    color: var(--yellow);
+}
+
+#hire {
+    color: black;
+    background-color: var(--yellow);
+}
+
+#hire:hover {
+    color: var(--yellow);
+    background-color: transparent;
+    border: 1px solid var(--yellow);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+/* First row property end */
+
+/* Second row property start */
+#row2 {
+    background-color: var(--blue2);
+    overflow: hidden;
+    padding-top: 2%;
+}
+
+#aboutMe {
+    opacity: 0.1;
+}
+
+#aboutIn {
+    color: var(--yellow);
+    font-size: 30px;
+    margin-top: -6%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #aboutIn {
+        margin-top: -70px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #aboutMe {
+        font-size: 30px;
+    }
+
+    #aboutIn {
+        font-size: 15px;
+        margin-top: -40px;
+    }
+
+}
+
+#web {
+    color: var(--yellow);
+}
+
+#bio {
+    font-size: 1.25em;
+}
+
+#download {
+    color: black;
+    background-color: var(--yellow);
+    width: 170px;
+}
+
+#download:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+/* Second row property end */
+
+/* Third row property start */
+#row3 {
+    background-color: var(--blue);
+    overflow: hidden;
+    padding-top: 1%;
+}
+
+#mySkill {
+    opacity: 0.1;
+}
+
+#inSkill {
+    font-size: 30px;
+    color: var(--yellow);
+    margin-top: -6%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #inSkill {
+        margin-top: -70px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #mySkill {
+        font-size: 30px;
+    }
+
+    #inSkill {
+        font-size: 15px;
+        margin-top: -35px;
+    }
+
+}
+
+#contain1 {
+    color: var(--yellow);
+}
+
+#progress1 {
+    background-color: var(--yellow);
+}
+
+#progress2 {
+    background-color: var(--yellow);
+}
+
+#progress3 {
+    background-color: var(--yellow);
+}
+
+#progress4 {
+    background-color: var(--yellow);
+}
+
+#progress5 {
+    background-color: var(--yellow);
+}
+
+#progress6 {
+    background-color: var(--yellow);
+}
+
+#progress7 {
+    background-color: var(--yellow);
+}
+
+#progress8 {
+    background-color: var(--yellow);
+}
+
+/* Third row property end */
+
+/* forth row property start */
+#row4 {
+    background-color: var(--blue);
+    overflow: hidden;
+}
+
+#resume {
+    opacity: 0.1;
+}
+
+#resumeIn {
+    font-size: 30px;
+    color: var(--yellow);
+    margin-top: -6.5%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #resumeIn {
+        margin-top: -70px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #resume {
+        font-size: 30px;
+    }
+
+    #resumeIn {
+        font-size: 15px;
+        margin-top: -35px;
+    }
+
+}
+
+#main:hover #circle {
+    background-color: var(--yellow);
+    border: 2px solid gray;
+}
+
+#circle {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid gray;
+}
+
+#line4{
+    width: 3px;
+    height: 150px;
+    margin-left: 6px;
+}
+
+#education {
+    margin-left: 3%;
+}
+
+#bachelor {
+    color: var(--yellow);
+}
+
+#list {
+    margin-left: 10%;
+}
+
+/* forth row property end */
+
+/* fifth row property start */
+#row5 {
+    background-color: var(--blue2);
+    overflow: hidden;
+    padding-top: 5%;
+}
+
+#cardTitle1 {
+    color: var(--yellow);
+}
+
+#showBtn {
+    background-color: var(--yellow);
+    width: 120px;
+}
+
+#showBtn:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border: 1pa solid var(--yellow);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+/* fifth row property end */
+
+/* six row property end */
+#row6 {
+    background-color: var(--blue2);
+    overflow: hidden;
+}
+
+#showBtn3 {
+    background-color: var(--yellow);
+    width: 180px;
+}
+
+#showBtn3:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border: 1pa solid var(--yellow);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+/* six row property end */
+
+/* seventh row property start */
+#row7 {
+    background-color: var(--blue2);
+    overflow: hidden;
+}
+
+#showBtn2 {
+    background-color: var(--yellow);
+    width: 140px;
+}
+
+#showBtn2:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+/* seventh row property end */
+
+/* eight row property end */
+#row8 {
+    background-color: var(--blue);
+    overflow: hidden;
+}
+
+#contact {
+    opacity: 0.1;
+}
+
+#contactIn {
+    font-size: 30px;
+    color: var(--yellow);
+    margin-top: -6.5%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #contactIn {
+        margin-top: -70px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #contact {
+        font-size: 30px;
+    }
+
+    #contactIn {
+        font-size: 15px;
+        margin-top: -35px;
+    }
+
+}
+
+#name{
+    height: 50px;
+    background-color: #101624;
+    border: 1px solid #070d1b;
+}
+
+#name:focus{
+    outline: none;
+    border: 1px solid var(--yellow);
+}
+
+#inputEmail{
+    height: 50px;
+    background-color: #101624;
+    border: 1px solid #070d1b;
+}
+
+#inputEmail:focus{
+    outline: none;
+    border: 1px solid var(--yellow);
+}
+
+#subject{
+    height: 50px;
+    background-color: #101624;
+    border: 1px solid #070d1b;
+}
+
+#subject:focus{
+    outline: none;
+    border: 1px solid var(--yellow);
+}
+
+#mainMessage{
+    float: left;
+    width: 100%;
+}
+
+#message{
+    height: 150px;
+    background-color: #101624;
+    border: 1px solid #070d1b;
+    resize: vertical;
+}
+
+#message:focus{
+    outline: none;
+    border: 1px solid var(--yellow);
+}
+
+#btn2 {
+    background-color: var(--yellow);
+    width: 150px;
+}
+
+#btn2:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+#icon1{
+    border: 1px solid grey;
+}
+
+#icon:hover #icon1{
+    border: 1px solid var(--yellow);
+}
+
+#email{
+    margin-top: -60px;
+    margin-left: 75px;
+}
+
+#email1{
+    margin-top: -15px;
+    margin-left: 75px;
+}
+
+#mainLink{
+    border: 1px solid gray;
+}
+
+#mainLink:hover{
+    border-color: blue;
+}
+
+#linkDin{
+    color: white;
+}
+
+#linkDinIcon{
+    color: gray;
+}
+
+#linkDin:hover{
+    color: blue;
+}
+
+#linkDin:hover #linkDinIcon{
+    color: blue;
+}
+/* eight row property end */
